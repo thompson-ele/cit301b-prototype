@@ -1,0 +1,15 @@
+// H1 Font - Drop Your Anchor
+@font-face {
+    font-family: "Drop Your Anchor";
+    src: url('../font/DropYourAnchor.ttf') format("truetype");
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+.parallax-fixed-bg {
+	color: #FFF;
+	
+	h1 { font-size: 6.5rem; }
+}

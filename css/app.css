@@ -43,6 +43,20 @@ body, html, main {
 .color-bg-secondary {
   background: #046A38; }
 
+.height-100vh {
+  height: 100vh; }
+
+@font-face {
+  font-family: "Drop Your Anchor";
+  src: url("../font/DropYourAnchor.ttf") format("truetype"); }
+h1 {
+  text-transform: uppercase; }
+
+.parallax-fixed-bg {
+  color: #FFF; }
+  .parallax-fixed-bg h1 {
+    font-size: 6.5rem; }
+
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
    ========================================================================== */
@@ -1926,6 +1940,16 @@ h6 {
   h4 small,
   h5 small,
   h6 small {
+    line-height: 0;
+    color: #cacaca; }
+
+h1 {
+  font-family: "Drop Your Anchor";
+  font-style: normal;
+  font-weight: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility; }
+  h1 small {
     line-height: 0;
     color: #cacaca; }
 

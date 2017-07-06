@@ -323,6 +323,19 @@ $abbr-underline: 1px dotted $black !default;
       color: $header-small-font-color;
     }
   }
+	
+  h1 {
+	font-family: $h1-header-font-family;
+	font-style: $header-font-style;
+    font-weight: $header-font-weight;
+    color: $header-color;
+    text-rendering: $header-text-rendering;
+
+    small {
+      line-height: 0;
+      color: $header-small-font-color;
+    }
+  }
 
   // Heading styles
   @each $size, $headers in $header-styles {

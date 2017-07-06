@@ -1,9 +1,9 @@
 @charset 'utf-8';
 
 @import 'settings';
-//@import 'foundation'; TODO
-@import '../node_modules/foundation-sites/foundation';
-@import 'motion-ui';
+@import 'foundation'; //TODO
+//@import '../node_modules/foundation-sites/foundation';
+//@import 'motion-ui';
 @import 'parallax';
 
 @include foundation-global-styles;
@@ -53,5 +53,5 @@
 
 // @include foundation-prototype-classes;
 
-@include motion-ui-transitions;
-@include motion-ui-animations;
+//@include motion-ui-transitions;
+//@include motion-ui-animations;

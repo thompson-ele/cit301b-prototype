@@ -41,10 +41,19 @@ body, html, main {
   background: rgba(161, 219, 135, 0.5); }
 
 .color-bg-secondary {
-  background: #046A38; }
+  background: #fff; }
 
 .height-100vh {
   height: 100vh; }
+
+.text-shadow {
+  text-shadow: 1px 1px #000; }
+
+.width-100 {
+  width: 100%; }
+
+.font-italic {
+  font-style: italic; }
 
 @font-face {
   font-family: "Drop Your Anchor";

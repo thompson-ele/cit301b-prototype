@@ -40,11 +40,24 @@ body, html, main {
   background:rgba(161,219,135,0.5) 
 }
 .color-bg-secondary{
-  background:#046A38;
+  background:#fff;
 }
 
 // Used for setting height of image sections
 // Allows text to vertically center
 .height-100vh {
 	height: 100vh;
+}
+
+//Add shadow to text
+.text-shadow{
+    text-shadow: 1px 1px #000;
+}
+//Image sizing
+.width-100 {
+    width: 100%;
+}
+//FONT
+.font-italic {
+    font-style:italic;
 }

@@ -11,3 +11,15 @@
 	height: 175px;
 	object-fit: cover;
 }
+
+.top-bar {
+	a {
+		color: #FFF;
+		&:hover { color: #CCC; }
+		&:visited { color: #FFF; }
+	}
+}
+
+.menu {
+	.menu-text { color: #FFF; }
+}

@@ -41,10 +41,19 @@ body, html, main {
   background: rgba(161, 219, 135, 0.5); }
 
 .color-bg-secondary {
-  background: #046A38; }
+  background: #e6e6e6; }
 
 .height-100vh {
   height: 100vh; }
+
+.text-shadow {
+  text-shadow: 1px 1px #000; }
+
+.width-100 {
+  width: 100%; }
+
+.font-italic {
+  font-style: italic; }
 
 @font-face {
   font-family: "Drop Your Anchor";
@@ -55,7 +64,28 @@ h1 {
 .parallax-fixed-bg {
   color: #FFF; }
   .parallax-fixed-bg h1 {
-    font-size: 6.5rem; }
+    font-size: 7rem; }
+
+.parallax-scrolling-bg h1 {
+  font-size: 4rem; }
+
+figcaption {
+  font-style: italic;
+  text-align: center; }
+
+.drop-your-anchor-font {
+  font-family: "Drop Your Anchor";
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.extra-padding {
+  padding: 65px 0; }
+
+#menu img,
+#gallery img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover; }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
@@ -1940,6 +1970,16 @@ h6 {
   h4 small,
   h5 small,
   h6 small {
+    line-height: 0;
+    color: #cacaca; }
+
+h1 {
+  font-family: "Drop Your Anchor";
+  font-style: normal;
+  font-weight: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility; }
+  h1 small {
     line-height: 0;
     color: #cacaca; }
 
@@ -4642,7 +4682,7 @@ a.thumbnail {
   flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #507288; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }

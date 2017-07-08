@@ -8,24 +8,24 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <header>
+    <header data-sticky-container>
         <!-- TODO: Add Sticky navigation? -->
-        <nav class="top-bar fixed contain-to-grid">
+        <nav data-sticky data-margin-top="0" class="top-bar fixed contain-to-grid">
             <div class="top-bar-left">
-                <ul class="menu">
-                    <li class="menu-text">Moose & Candle</li>
+                <ul class="menu" data-smooth-scroll>
+					<li class="menu-text drop-your-anchor-font"><a href="#top">Moose & Candle</a></li>
                 </ul>
             </div>
-            <div class="top-bar-right menu">
-                <li><a href="#">One</a></li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
-                <li><a href="#">Four</a></li>
+            <div class="top-bar-right menu" data-smooth-scroll>
+                <li><a href="#location">LOCATION</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </div>
         </nav>
     </header>
     
-    <main>
+    <main id="top">
     	<!-- TITLE SECTION -->
         <div class="parallax-fixed-bg parallax-bg-1">
             <div class="grid-container grid-x height-100vh">
@@ -38,11 +38,11 @@
             </div>
         </div>
 
-		<!-- ADDRESS SECTION -->
-        <div class="parallax-scrolling-bg grid-x">
+		<!-- LOCATION SECTION -->
+        <div id="location" class="parallax-scrolling-bg grid-x">
             <div class="grid-container align-self-middle">
             
-                <h1 class="text-center">Address</h1>
+                <h1 class="text-center">Location</h1>
                 <div class="grid-x grid-padding-x">
                     <div class="small-6 cell">
                     	<img src="img/jason-briscoe-104289.jpg" alt="Bed and Breakfast Picture">
@@ -239,7 +239,7 @@
         <!-- GALLERY SECTION -->
         <div id="gallery" class="parallax-scrolling-bg extra-padding">
             <div class="grid-container">
-                <h1 class="text-center">Gallery Pictures</h1>
+                <h1 class="text-center">Gallery</h1>
                 <div class="grid-x grid-padding-x align-justify">
                     <div class="medium-6 large-2 cell">
                         <figure>
@@ -336,13 +336,12 @@
             <div class="grid-container grid-x height-100vh">
                 <div class="cell align-self-middle text-center">
                     <h1 class="text-shadow">Contact Us</h1>
-                    <p>BG hipster image</p>
                 </div>
             </div>
         </div>
         
 		<!-- CONTACT FORM SECTION -->
-        <div class="parallax-scrolling-bg extra-padding">
+        <div id="contact" class="parallax-scrolling-bg extra-padding">
             <div class="grid-container">
                 <h1 class="text-center">Contact Form</h1>
 

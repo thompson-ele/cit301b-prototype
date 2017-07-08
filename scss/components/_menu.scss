@@ -345,7 +345,7 @@ $menu-centered-back-compat: true !default;
 
   font-weight: bold;
   line-height: 1;
-  color: inherit;
+  color: #FFF; //inherit;
 }
 
 @mixin menu-state-active {

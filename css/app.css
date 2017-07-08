@@ -41,7 +41,7 @@ body, html, main {
   background: rgba(161, 219, 135, 0.5); }
 
 .color-bg-secondary {
-  background: #fff; }
+  background: #e6e6e6; }
 
 .height-100vh {
   height: 100vh; }
@@ -2358,8 +2358,8 @@ ul.no-bullet, ol.no-bullet {
     .button.hollow.disabled, .button.hollow.disabled:hover, .button.hollow.disabled:focus, .button.hollow[disabled], .button.hollow[disabled]:hover, .button.hollow[disabled]:focus {
       background-color: transparent; }
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #0c3c5d;
-      color: #0c3c5d; }
+      border-color: #0c3d5d;
+      color: #0c3d5d; }
       .button.hollow:hover.disabled, .button.hollow:hover[disabled], .button.hollow:focus.disabled, .button.hollow:focus[disabled] {
         border: 1px solid #1779ba;
         color: #1779ba; }
@@ -2367,8 +2367,8 @@ ul.no-bullet, ol.no-bullet {
       border: 1px solid #1779ba;
       color: #1779ba; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
-        border-color: #0c3c5d;
-        color: #0c3c5d; }
+        border-color: #0c3d5d;
+        color: #0c3d5d; }
         .button.hollow.primary:hover.disabled, .button.hollow.primary:hover[disabled], .button.hollow.primary:focus.disabled, .button.hollow.primary:focus[disabled] {
           border: 1px solid #1779ba;
           color: #1779ba; }
@@ -2416,8 +2416,8 @@ ul.no-bullet, ol.no-bullet {
     .button.clear.disabled, .button.clear.disabled:hover, .button.clear.disabled:focus, .button.clear[disabled], .button.clear[disabled]:hover, .button.clear[disabled]:focus {
       background-color: transparent; }
     .button.clear:hover, .button.clear:focus {
-      border-color: #0c3c5d;
-      color: #0c3c5d; }
+      border-color: #0c3d5d;
+      color: #0c3d5d; }
       .button.clear:hover.disabled, .button.clear:hover[disabled], .button.clear:focus.disabled, .button.clear:focus[disabled] {
         border: 1px solid #1779ba;
         color: #1779ba; }
@@ -2427,8 +2427,8 @@ ul.no-bullet, ol.no-bullet {
       border: 1px solid #1779ba;
       color: #1779ba; }
       .button.clear.primary:hover, .button.clear.primary:focus {
-        border-color: #0c3c5d;
-        color: #0c3c5d; }
+        border-color: #0c3d5d;
+        color: #0c3d5d; }
         .button.clear.primary:hover.disabled, .button.clear.primary:hover[disabled], .button.clear.primary:focus.disabled, .button.clear.primary:focus[disabled] {
           border: 1px solid #1779ba;
           color: #1779ba; }
